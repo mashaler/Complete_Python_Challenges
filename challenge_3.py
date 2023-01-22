@@ -5,4 +5,4 @@ height = int(input("Enter the height:"))
 
 area = width * height
 
-print("Your area is:",area)
+print("Your area is:",str(area))
