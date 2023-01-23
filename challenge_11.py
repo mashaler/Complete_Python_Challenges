@@ -6,4 +6,5 @@
 #Asks the user to input a sentence
 sentence = input("Enter a sentence:")
 
+#Outputs the number of characters to the screen
 print("There are ",len(sentence),"characters")
