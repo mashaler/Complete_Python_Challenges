@@ -4,12 +4,20 @@
 #-Greater than or equal to 35 = C
 #less than 35 = D
 
-marks = int(input("Enter your marks: "))
-if marks >= 75:
+#!/usr/bin/python3
+
+print("----GRADE CALCULATOR----")
+
+#Aks the user to input the mark and stores it in the mark variable 
+mark = int(input("Enter your mark: "))
+
+#if statement that outputs diffferent strings depending on the value stored
+#in the mark variable
+if mark >= 75:
     print("Grade : A")
-elif marks >= 60:
+elif mark >= 60:
     print("Grade : B")
-elif marks >= 35:
+elif mark >= 35:
     print("Grade : C")
 else:
     print("Grade : D")
