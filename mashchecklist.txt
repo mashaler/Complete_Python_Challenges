@@ -1,0 +1,11 @@
+Destination: mash
+packing list: 
+hi
+hey
+there
+who
+iyoo
+Tasks: 
+sweep
+eat
+wash
